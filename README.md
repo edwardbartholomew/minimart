@@ -165,7 +165,7 @@ can be pulled down from a repository and then ran by Jenkins.
     bundle install
 
     echo Mirroring cookbooks...
-    minimart mirror
+    minimart mirror --load-deps
 
     echo Generating market...
     minimart web --host=$BUCKET_NAME
